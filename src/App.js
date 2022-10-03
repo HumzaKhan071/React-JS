@@ -1,14 +1,14 @@
 import "./App.css";
-// import Resturant from "./Components/Basics/Resturant";
+import Resturant from "./Components/Basics/Resturant";
 // import UseState from "./Components/Hooks/useState";
-import UseEffects from "./Components/Hooks/useEffects";
+// import UseEffects from "./Components/Hooks/useEffects";
 
 function App() {
   return (
     <>
-      <UseEffects />
+      {/* <UseEffects /> */}
       {/* <UseState /> */}
-      {/* <Resturant /> */}
+      <Resturant />
     </>
   );
 }
